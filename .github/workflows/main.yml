@@ -29,4 +29,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: my deploy
-      run: echo "i am deploy phase
+      run: echo "i am deploy phase"
