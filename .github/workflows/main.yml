@@ -15,6 +15,7 @@ jobs:
         ip a
         ls -al
         mdkir nijen
+        ls -al
         pwd
     - name: git actions
       uses: actions/checkout@v4    
