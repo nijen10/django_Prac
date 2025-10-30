@@ -19,20 +19,20 @@ jobs:
         pwd
     - name: git actions
       uses: actions/checkout@v4    
-  test:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-    - name: my test
-      run: |
-        echo "I am testing phase"
-  release:
-    runs-on: ubuntu-latest
-    steps:
-    - name: my release 
-      run: echo " i am release"
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: my deploy
-      run: echo "i am deploy phase"
+  # test:
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #   - name: my test
+  #     run: |
+  #       echo "I am testing phase"
+  # release:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: my release 
+  #     run: echo " i am release"
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: my deploy
+  #     run: echo "i am deploy phase"
