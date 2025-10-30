@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: My first Github Action
       run: |
-        echo " Hi i am new pipeline"
+        echo "this is new pipeline"
         hostname
         ip a
         ls -al
