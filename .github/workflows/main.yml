@@ -14,7 +14,7 @@ jobs:
         hostname
         ip a
         ls -al
-        mdkir nijen
+        mkdir nijen
         ls -al
         pwd
     - name: git actions
