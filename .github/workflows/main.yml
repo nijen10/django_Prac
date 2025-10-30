@@ -15,7 +15,8 @@ jobs:
         ip a
         ls -al
         pwd
-        git pull origin head
+    - name: git actions
+      uses: actions/checkout@v4    
   test:
     runs-on: ubuntu-latest
     needs: build
