@@ -5,7 +5,7 @@ on:
 jobs:
   build:
 
-    runs-on: devops
+    runs-on: devops1
 
     steps:
     - name: My first Github Action
