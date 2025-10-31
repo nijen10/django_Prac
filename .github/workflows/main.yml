@@ -25,6 +25,7 @@ jobs:
     - name: my first githuba actions
       run: |
        echo "code was merged successfully - running pipeline."
+       echo "this change is done by branch nijen"
   # test:
   #   runs-on: ubuntu-latest
   #   needs: build
